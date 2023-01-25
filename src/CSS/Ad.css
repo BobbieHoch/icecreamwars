@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Ad p {
+    margin: 0;
+
+}
+
+p.Ad_choice {
+    margin-top: 5px;
+    font-family: Caveat;
+}
+
+.Ad--dark{
+    color: #fff;
+    background-color: #222;
+    border-color: white;
+}
