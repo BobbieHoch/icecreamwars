@@ -24,6 +24,13 @@ export function AdDesign() {
                 <button>Light</button>
                 <button>Dark</button>
             </div>
+            
+           {/* <div> <h2>Font Size</h2>
+           <div className="button-bar">
+            <button>Up</button>
+            <input type="number"> </input>
+            <button>Down</button> 
+            </div> */}
         </div>
     )
 }

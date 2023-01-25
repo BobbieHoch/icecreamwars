@@ -1,23 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Header } from './components/Header';
-import { AdDesign } from './components/AdDesign';
-
+import React from "react";
+// import logo from './logo.svg';
+import "./App.css";
+import { Header } from "./components/Header";
+import { AdDesign } from "./components/AdDesign";
+import { Votes } from "./components/Votes";
 
 function App() {
-  return (
-    <>
-      <Header/>
-      <div className="main">
-        <AdDesign />
-        <Votes />
-      <header className="App-header">
-       
-    
-      </div>
-      </>
-  );
+    return (
+        <>
+            <Header />
+            <div className="main">
+                <AdDesign />
+                <Votes />
+                {/* <header className="App-header"> */}
+            </div>
+        </>
+    );
 }
 
 export default App;

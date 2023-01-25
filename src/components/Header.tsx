@@ -1,9 +1,12 @@
-export function AdDesign() {
+// import '../CSS/Header.css';
+
+export function Header() {
     return (
         <>
-            <h2>Ad Design</h2>
+            <header> <h2>Ice Cream Wars</h2></header>
+            {/* <h2>Ad Design</h2> */}
 
-            <h2>What to support:</h2>
+            {/* <h2>What to support:</h2>
             <button>Chocolate</button>
             <button>Vanilla</button>
             <button>Strawberry</button>
@@ -13,10 +16,7 @@ export function AdDesign() {
             <button>Dark</button>
 
 
-            <h2>Font Size</h2>
-            <button>Up</button>
-            <input type="number"> </input>
-            <button>Down</button>
+         */}
         </>
     )
 }

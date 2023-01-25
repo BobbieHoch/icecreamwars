@@ -35,3 +35,4 @@ export function Votes() {
     )
     
 }
+export default Votes;
