@@ -17,3 +17,15 @@
 .progressChocolate::-moz-progress-bar{
     background-color: #4f2c2c;/*Sienna*/
 }
+.progressVanilla{
+    background-color: gray ;
+}
+.progressVanilla::-moz-progress-bar{
+    background-color: #4f2c2c;/*Sienna*/
+}
+.progressStrawbetty{
+    background-color: gray ;
+}
+.progressStrawberry::-moz-progress-bar{
+    background-color: #4f2c2c;/*Sienna*/
+}
