@@ -8,24 +8,27 @@
 .Votes p {
     margin-top: 8px;
     margin-bottom: 2px;
+    border-radius: 5px;
 }
 
-/* .progressChocolate{
-    background-color: gray ;
+.progressChocolate{
+    background-color: brown ;
+    border-radius: 10px;
 
-} */
+}
 .progressChocolate::-moz-progress-bar{
     background-color: #4f2c2c;/*Sienna*/
+    border-radius: 7px;
 }
-/* .progressVanilla{
-    background-color: gray ; */
-
+.progressVanilla{
+    background-color: brown;
+}
 .progressVanilla::-moz-progress-bar{
     background-color: beige;/*Sienna*/
 }
-/* .progressStrawbetty{
-    background-color: gray ;
-} */
+.progressStrawberry{
+    background-color: pink ;
+}
 .progressStrawberry::-moz-progress-bar{
     background-color: pink;/*Sienna*/
 }

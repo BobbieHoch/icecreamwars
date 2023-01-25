@@ -36,15 +36,15 @@ export function Votes() {
                         <p>
                             <label>Chocolate</label>{chocolateVotes}({displayPercentage(chocolateVotes, getTotal())})
                         </p>
-                        {/* <progress className="progressChocolate" value={chocolateVotes / getTotal()}</progress> */}
+                        <progress className="progressChocolate" value={chocolateVotes / getTotal()}></progress> 
                         <p>
                             <label>Strawberry</label>{strawberryVotes}({displayPercentage(strawberryVotes, getTotal())})
                         </p>
-                        {/* <progress className="progressStrawberry" value={strawberryVotes / getTotal()}</progress> */}
+                        <progress className="progressStrawberry" value={strawberryVotes / getTotal()}></progress>
                         <p>
                             <label>Vanilla</label>{vanillaVotes}({displayPercentage(vanillaVotes, getTotal())})
                         </p>
-                        {/* <progress className="progressVanilla" value={vanillaVotes / getTotal()}</progress> */}
+                        <progress className="progressVanilla" value={vanillaVotes / getTotal()}></progress>
                     </>
                 </div>
         
