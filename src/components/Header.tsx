@@ -1,9 +1,9 @@
-// import '../CSS/Header.css';
+import '../CSS/Header.css';
 
 export function Header() {
     return (
         <>
-            <header> <h2>Ice Cream Wars</h2></header>
+            <header> <h2 className= 'title'>Ice Cream Wars</h2></header>
             {/* <h2>Ad Design</h2> */}
 
             {/* <h2>What to support:</h2>
