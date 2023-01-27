@@ -11,24 +11,23 @@
     border-radius: 5px;
 }
 
-.progressChocolate{
+/* .progressChocolate{
     background-color: brown ;
     border-radius: 10px;
-
-}
-.progressChocolate::-moz-progress-bar{
+} */
+/* .progressChocolate::-moz-progress-bar{
     background-color: #4f2c2c;/*Sienna*/
-    border-radius: 7px;
-}
-.progressVanilla{
+    /* border-radius: 7px; */
+
+/* .progressVanilla{
     background-color: brown;
-}
-.progressVanilla::-moz-progress-bar{
+} */
+/* .progressVanilla::-moz-progress-bar{
     background-color: beige;/*Sienna*/
-}
-.progressStrawberry{
+
+/* .progressStrawberry{
     background-color: pink ;
-}
-.progressStrawberry::-moz-progress-bar{
+} */
+/* .progressStrawberry::-moz-progress-bar{
     background-color: pink;/*Sienna*/
-}
+
